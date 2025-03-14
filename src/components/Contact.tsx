@@ -191,7 +191,7 @@ const Contact: React.FC = () => {
                     <Github className="h-6 w-6" />
                   </a>
                   <a 
-                    href="www.linkedin.com/in/ryan-miller-211020331" 
+                    href="https://www.linkedin.com/in/ryan-miller-211020331" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="bg-dark-300 hover:bg-primary-500/20 p-3 rounded-full text-gray-300 hover:text-primary-500 transition-colors"
