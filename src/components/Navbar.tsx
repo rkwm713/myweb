@@ -59,7 +59,7 @@ const Navbar: React.FC = () => {
             <a href="https://github.com/rkwm713" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
               <Github className="h-5 w-5" />
             </a>
-            <a href="https://www.linkedin.com/in/ryan-miller-211020331/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+            <a href="https://www.linkedin.com/in/ryan-miller-211020331" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
               <Linkedin className="h-5 w-5" />
             </a>
             <a href="mailto:rkwm713@gmail.com" className="text-gray-400 hover:text-white transition-colors">
