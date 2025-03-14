@@ -148,7 +148,7 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="text-white font-medium">Email</h4>
-                    <a href="mailto:ryan.miller@example.com" className="text-gray-300 hover:text-primary-400 transition-colors">
+                    <a href="mailto:rkwm713@gmail.com" className="text-gray-300 hover:text-primary-400 transition-colors">
                       rkwm713@gmail.com
                     </a>
                   </div>
@@ -160,7 +160,7 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="text-white font-medium">Phone</h4>
-                    <a href="tel:+15551234567" className="text-gray-300 hover:text-primary-400 transition-colors">
+                    <a href="tel:+18287738572" className="text-gray-300 hover:text-primary-400 transition-colors">
                       (828) 773-8572
                     </a>
                   </div>
@@ -183,7 +183,7 @@ const Contact: React.FC = () => {
                 <h4 className="text-white font-medium mb-4">Connect with me</h4>
                 <div className="flex space-x-4">
                   <a 
-                    href="https://github.com/ryankmiller" 
+                    href="https://github.com/rkwm713" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="bg-dark-300 hover:bg-primary-500/20 p-3 rounded-full text-gray-300 hover:text-primary-500 transition-colors"
@@ -191,7 +191,7 @@ const Contact: React.FC = () => {
                     <Github className="h-6 w-6" />
                   </a>
                   <a 
-                    href="https://linkedin.com/in/ryan-k-miller" 
+                    href="www.linkedin.com/in/ryan-miller-211020331" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="bg-dark-300 hover:bg-primary-500/20 p-3 rounded-full text-gray-300 hover:text-primary-500 transition-colors"
