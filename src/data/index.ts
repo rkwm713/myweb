@@ -22,7 +22,6 @@ export const experiences: ExperienceType[] = [
       'Led operations administration and management initiatives',
       'Developed and implemented operational procedures and policies',
       'Managed team performance and workflow optimization',
-      'Coordinated with stakeholders to ensure operational excellence'
     ]
   },
   {
@@ -70,7 +69,7 @@ export const skills: SkillType[] = [
   { id: 8, name: 'Database Design', level: 4, category: 'backend' },
   
   // Tools
-  { id: 9, name: 'AutoCAD', level: 5, category: 'tools' },
+  { id: 9, name: 'SPIDAcalc', level: 5, category: 'tools' },
   { id: 10, name: 'Git', level: 3, category: 'tools' },
   { id: 11, name: 'VS Code', level: 4, category: 'tools' },
   { id: 12, name: 'Microsoft Office', level: 5, category: 'tools' },
@@ -85,7 +84,7 @@ export const skills: SkillType[] = [
 export const projects: ProjectType[] = [
   {
     id: 1,
-    title: 'Smart Home Automation System',
+    title: 'Community Garden Social',
     description: 'A comprehensive IoT solution for home automation using Raspberry Pi and custom sensors. Features include temperature monitoring, lighting control, and security integration.',
     image: 'https://images.unsplash.com/photo-1558002038-1055907df827?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80',
     technologies: ['Python', 'MQTT', 'Raspberry Pi', 'React', 'Node.js'],
