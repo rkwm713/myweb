@@ -150,7 +150,7 @@ const Experience: React.FC = () => {
                   : 'bg-dark-100 text-gray-300 hover:bg-dark-300'
               }`}
             >
-              <Briefcase className="mr-2 h-4 w-4" />
+              <className="mr-2 h-4 w-4" />
               Work Experience
             </button>
             <button
