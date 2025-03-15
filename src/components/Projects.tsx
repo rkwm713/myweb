@@ -202,7 +202,7 @@ def predict_failure(equipment_data):
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 flex items-center justify-center">
-            <Cpu className="h-8 w-8 text-primary-500 mr-2" />
+            <Star className="h-6 w-6 text-yellow-400 ml-2 animate-spin-slow" />
             Featured Projects
             <Star className="h-6 w-6 text-yellow-400 ml-2 animate-spin-slow" />
           </h2>
