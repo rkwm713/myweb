@@ -86,7 +86,7 @@ export const projects: ProjectType[] = [
     id: 1,
     title: 'Community Garden Management Platform',
     description: 'A comprehensive web application for managing community garden operations, including plot assignments, events, tasks, messaging, and weather information. Designed to enhance community engagement and streamline garden management processes.',
-    image: 'https://images.unsplash.com/photo-1558002038-1055907df827?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80',
+    image: '/src/assets/garden.png',
     technologies: ['Python', 'PLpgSQL', 'TypeScript', 'React', 'Node.js'],
     link: 'techservgarden.netlify.app',
     github: 'https://github.com/rkwm713/TechGarden'
