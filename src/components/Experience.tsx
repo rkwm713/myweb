@@ -124,7 +124,7 @@ const Experience: React.FC = () => {
   };
 
   return (
-    <section id="experience" className="py-20 bg-dark-200 relative overflow-hidden">
+    <section id="experience" className="py-20 bg-dark-100 relative overflow-hidden">
       <canvas ref={canvasRef} className="absolute inset-0 z-0"></canvas>
       <div className="absolute inset-0 z-0 bg-hero-gradient"></div>
       
