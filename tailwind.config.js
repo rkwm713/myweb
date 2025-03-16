@@ -27,6 +27,7 @@ export default {
       },
       backgroundImage: {
         'grid-pattern': 'linear-gradient(to right, #2A2A2A 1px, transparent 1px), linear-gradient(to bottom, #2A2A2A 1px, transparent 1px)',
+        'hero-gradient': 'linear-gradient(to bottom, rgba(18, 18, 18, 0.8), rgba(18, 18, 18, 1))',
       },
     },
   },

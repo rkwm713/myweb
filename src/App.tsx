@@ -6,6 +6,7 @@ import Projects from './components/Projects';
 import Experience from './components/Experience';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import StarBackground from './components/StarBackground';
 
 function App() {
   useEffect(() => {
@@ -14,10 +15,10 @@ function App() {
     
     // Smooth scrolling for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function(e) {
+      anchor.addEventListener('click', (e) => {
         e.preventDefault();
         
-        const targetId = this.getAttribute('href')?.substring(1);
+        const targetId = (e.currentTarget as HTMLAnchorElement).getAttribute('href')?.substring(1);
         if (!targetId) return;
         
         const targetElement = document.getElementById(targetId);
@@ -32,7 +33,8 @@ function App() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-dark-100 text-white font-sans">
+    <div className="min-h-screen bg-dark-100 text-white font-sans relative">
+      <StarBackground />
       <Navbar />
       <Hero />
       <About />
