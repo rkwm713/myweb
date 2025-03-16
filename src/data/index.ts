@@ -92,3 +92,4 @@ export const projects: ProjectType[] = [
     github: 'https://github.com/rkwm713/TechGarden'
   },
 ];
+UI Fixes
