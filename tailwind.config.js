@@ -8,25 +8,25 @@ export default {
     extend: {
       colors: {
         primary: {
-          400: '#818cf8',
-          500: '#6366f1',
-          600: '#4f46e5',
-          700: '#4338ca',
+          400: '#FFD700',
+          500: '#D4AF37',
+          600: '#B8860B',
+          700: '#996515',
         },
         secondary: {
-          400: '#c084fc',
-          500: '#a855f7',
-          600: '#9333ea',
+          400: '#E6E8FA',
+          500: '#C0C0C0',
+          600: '#A9A9A9',
         },
         dark: {
-          100: '#0f172a',
-          200: '#1e293b',
-          300: '#334155',
-          900: '#020617',
+          100: '#121212',
+          200: '#1A1A1A',
+          300: '#2A2A2A',
+          900: '#000000',
         }
       },
       backgroundImage: {
-        'grid-pattern': 'linear-gradient(to right, #334155 1px, transparent 1px), linear-gradient(to bottom, #334155 1px, transparent 1px)',
+        'grid-pattern': 'linear-gradient(to right, #2A2A2A 1px, transparent 1px), linear-gradient(to bottom, #2A2A2A 1px, transparent 1px)',
       },
     },
   },

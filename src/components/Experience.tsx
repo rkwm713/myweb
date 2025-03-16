@@ -40,7 +40,7 @@ const Experience: React.FC = () => {
           size: Math.random() * 2 + 0.5,
           speedX: (Math.random() - 0.5) * 0.5,
           speedY: (Math.random() - 0.5) * 0.5,
-          color: `rgba(99, 102, 241, ${Math.random() * 0.5 + 0.1})`,
+          color: `rgba(212, 175, 55, ${Math.random() * 0.5 + 0.1})`,
         });
       }
     };
@@ -71,7 +71,7 @@ const Experience: React.FC = () => {
           
           if (distance < 100) {
             ctx.beginPath();
-            ctx.strokeStyle = `rgba(99, 102, 241, ${0.1 * (1 - distance / 100)})`;
+            ctx.strokeStyle = `rgba(212, 175, 55, ${0.1 * (1 - distance / 100)})`;
             ctx.lineWidth = 0.5;
             ctx.moveTo(p.x, p.y);
             ctx.lineTo(p2.x, p2.y);
@@ -147,8 +147,11 @@ const Experience: React.FC = () => {
               className={`flex items-center px-4 py-2 text-sm font-medium rounded-l-md ${
                 activeTab === 'work'
                   ? 'bg-primary-600 text-white'
-                  : 'bg-dark-100 text-gray-300 hover:bg-dark-300' >
-               Work Experience
+                  : 'bg-dark-100 text-gray-300 hover:bg-dark-300'
+              }`}
+            >
+              <Briefcase className="mr-2 h-4 w-4" />
+              Work Experience
             </button>
             <button
               onClick={() => setActiveTab('education')}
