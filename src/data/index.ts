@@ -1,4 +1,5 @@
 import { ExperienceType, EducationType, SkillType, ProjectType } from '../types';
+import gardenImage from '../assets/garden.png';
 
 export const experiences: ExperienceType[] = [
   {
@@ -86,7 +87,7 @@ export const projects: ProjectType[] = [
     id: 1,
     title: 'Community Garden Management Platform',
     description: 'A comprehensive web application for managing community garden operations, including plot assignments, events, tasks, messaging, and weather information. Designed to enhance community engagement and streamline garden management processes.',
-    image: '/assets/garden.png',
+    image: gardenImage,
     technologies: ['Python', 'PLpgSQL', 'TypeScript', 'React', 'Node.js'],
     link: 'https://techservgarden.netlify.app/login',
     github: 'https://github.com/rkwm713/TechGarden'
