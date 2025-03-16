@@ -99,11 +99,11 @@ const Projects: React.FC = () => {
     };
   }, []);
 
-  // Auto-rotate projects every 8 seconds
+  // Auto-rotate projects every 10 seconds
   useEffect(() => {
     const interval = setInterval(() => {
       nextProject();
-    }, 8000);
+    }, 10000);
     return () => clearInterval(interval);
   }, [currentProject]);
 

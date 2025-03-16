@@ -146,11 +146,15 @@ const About: React.FC = () => {
             </h3>
             
             <p className="text-gray-300 mb-6 leading-relaxed">
-              I'm Ryan Miller, an Engineering Technician at TechServ Engineering and Consulting with over 5 years of experience in the engineering field. Currently pursuing a bachelor's degree in Information Systems at Louisiana State University, I combine my engineering expertise with software development skills to create innovative technical solutions.
+             I’m Ryan Miller, an engineering technician at TechServ Engineering and Consulting with a year of hands-on experience. I’m also pursuing a bachelor's degree in Information Systems at Louisiana State University, where I merge technical expertise with software development to create innovative solutions.
             </p>
             
             <p className="text-gray-300 mb-8 leading-relaxed">
-              My professional journey spans from designing and implementing AutoCAD drawings for engineering projects to developing data visualization tools and automated systems that improve efficiency. I specialize in bridging the gap between engineering and technology, with expertise in AutoCAD, SQL database management, and programming languages like Python and JavaScript.
+              I pride myself on my ability to streamline processes through detailed documentation and targeted improvements that enhance overall efficiency. I thrive when tackling challenges, whether by identifying opportunities for innovation or solving specific problems, always striving to be an integral part of the solution. My proficiency in Python and JavaScript allows me to seamlessly integrate traditional engineering practices with modern technology.
+            </p>
+
+            <p className="text-gray-300 mb-8 leading-relaxed">
+            I appreciate you taking the time to explore my work, and I look forward to connecting about future collaborations and exciting projects.
             </p>
             
             {/* Education & Work Quick Info */}

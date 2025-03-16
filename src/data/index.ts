@@ -84,38 +84,11 @@ export const skills: SkillType[] = [
 export const projects: ProjectType[] = [
   {
     id: 1,
-    title: 'Community Garden Social',
-    description: 'A comprehensive IoT solution for home automation using Raspberry Pi and custom sensors. Features include temperature monitoring, lighting control, and security integration.',
+    title: 'Community Garden Management Platform',
+    description: 'A comprehensive web application for managing community garden operations, including plot assignments, events, tasks, messaging, and weather information. Designed to enhance community engagement and streamline garden management processes.',
     image: 'https://images.unsplash.com/photo-1558002038-1055907df827?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80',
-    technologies: ['Python', 'MQTT', 'Raspberry Pi', 'React', 'Node.js'],
-    link: 'https://example.com/smart-home',
-    github: 'https://github.com/example/smart-home'
+    technologies: ['Python', 'PLpgSQL', 'TypeScript', 'React', 'Node.js'],
+    link: 'techservgarden.netlify.app',
+    github: 'https://github.com/rkwm713/TechGarden'
   },
-  {
-    id: 2,
-    title: 'Data Visualization Dashboard',
-    description: 'An interactive dashboard for visualizing complex engineering data sets. Provides real-time analytics and customizable reports for decision-making.',
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80',
-    technologies: ['D3.js', 'React', 'Node.js', 'SQL', 'Express'],
-    link: 'https://example.com/dashboard',
-    github: 'https://github.com/example/dashboard'
-  },
-  {
-    id: 3,
-    title: 'Inventory Management System',
-    description: 'A full-stack application for tracking and managing inventory across multiple locations. Features include barcode scanning, automated reordering, and detailed reporting.',
-    image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80',
-    technologies: ['React', 'Node.js', 'MySQL', 'Express', 'Socket.io'],
-    link: 'https://example.com/inventory',
-    github: 'https://github.com/example/inventory'
-  },
-  {
-    id: 4,
-    title: 'Predictive Maintenance Algorithm',
-    description: 'A machine learning solution that predicts equipment failures before they occur. Analyzes sensor data to identify patterns and anomalies that indicate potential issues.',
-    image: 'https://images.unsplash.com/photo-1580982327559-c1202864eb05?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80',
-    technologies: ['Python', 'TensorFlow', 'Scikit-learn', 'Pandas', 'Flask'],
-    link: 'https://example.com/predictive',
-    github: 'https://github.com/example/predictive'
-  }
 ];
